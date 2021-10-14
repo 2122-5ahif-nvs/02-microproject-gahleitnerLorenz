@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+:Admin:
+
+rectangle "FacilityManagmentManager (FMM)"{
+    Admin -- (Recruit/Fire/Change Employee)
+    Admin -- (Create/Remove/Change Contracts)
+    Admin -- (Add/Remove/Change Client)
+}
+@enduml
